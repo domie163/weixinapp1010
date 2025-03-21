@@ -1,0 +1,78 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/register/register",
+    "pages/forget/forget",
+    "pages/center/center",
+    "pages/user-info/user-info",
+    "pages/yonghu/list",
+    "pages/yonghu/add-or-update",
+    "pages/yonghu/detail",
+    "pages/mendian/list",
+    "pages/mendian/add-or-update",
+    "pages/mendian/detail",
+    "pages/chezhan/list",
+    "pages/chezhan/add-or-update",
+    "pages/chezhan/detail",
+    "pages/qichepinpai/list",
+    "pages/qichepinpai/add-or-update",
+    "pages/qichepinpai/detail",
+    "pages/xinwentoutiao/list",
+    "pages/xinwentoutiao/add-or-update",
+    "pages/xinwentoutiao/detail",
+    "pages/yuyueshijia/list",
+    "pages/yuyueshijia/add-or-update",
+    "pages/yuyueshijia/detail",
+    "pages/storeup/list",
+    "pages/storeup/add-or-update",
+    "pages/storeup/detail",
+    "pages/discusschezhan/list",
+    "pages/discusschezhan/add-or-update",
+    "pages/discusschezhan/detail",
+    "pages/index/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "4S店客户管理系统小程序",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#FF0101",
+    "selectedColor": "#FF0000",
+    "borderStyle": "white",
+    "backgroundColor": "#00CC00",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabs/index.png",
+        "selectedIconPath": "static/tabs/index1.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/chezhan/list",
+        "iconPath": "/static/tabs/icon1.png",
+        "selectedIconPath": "/static/tabs/icon1_act.png",
+        "text": "车展"
+      },
+      {
+        "pagePath": "pages/xinwentoutiao/list",
+        "iconPath": "/static/tabs/icon2.png",
+        "selectedIconPath": "/static/tabs/icon2_act.png",
+        "text": "新闻头条"
+      },
+      {
+        "pagePath": "pages/center/center",
+        "iconPath": "static/tabs/mine.png",
+        "selectedIconPath": "static/tabs/mine1.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {
+    "uni-load-more": "/components/mescroll-uni/mescroll-uni",
+    "mescroll-uni": "/components/mescroll-uni/mescroll-uni",
+    "uni-popup": "/components/uni-popup/uni-popup"
+  }
+}
